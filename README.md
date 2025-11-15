@@ -3,7 +3,7 @@
 Este es un proyecto de demostración que utiliza Docker Compose para orquestar una arquitectura de dos contenedores:
 
 1.  **`web`**: Un servicio web construido con **PHP**
-2.  **`db`**: Un servicio de base de datos **MariaDb 8.0**.
+2.  **`db`**: Un servicio de base de datos **MariaDb 11**.
 
 La aplicación web se conecta a la base de datos, realiza una consulta a una tabla llamada `clientes` y muestra los resultados en un navegador web.
 
