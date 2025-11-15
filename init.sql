@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS empresa;
+USE empresa;
+
+CREATE TABLE IF NOT EXISTS clientes (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(100) NOT NULL,
+  creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO clientes (nombre) VALUES
+('José Flores'),
+('Adrian Ramirez');
